@@ -6,8 +6,8 @@
       "ESNext"
     ],
     "module": "commonjs",
-    "rootDir": "./dist",
-    "baseUrl": "./src",
+    "outDir": "dist",
+    "baseUrl": ".",
     "allowJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
