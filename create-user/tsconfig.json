@@ -2,11 +2,12 @@
   "compilerOptions": {
     "target": "es2018",
     "lib": [
-      "ES6"
+      "ES6",
+      "ESNext"
     ],
     "module": "commonjs",
-    "rootDir": "./",
-    "baseUrl": "./",
+    "rootDir": "./dist",
+    "baseUrl": "./src",
     "allowJs": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -14,5 +15,6 @@
     "skipLibCheck": true,
     "removeComments": true,
     "resolveJsonModule": true,
+    "sourceMap": true
   }
 }
